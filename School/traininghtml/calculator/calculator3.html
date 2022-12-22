@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> JavaScript Calculator </title>
+    <style>
+        #clear {
+            margin-left: -5px;
+            width: 100%;
+            border: 3px solid gray;
+            border-radius: 50px;
+            padding: 22px;
+            background-color: rgb(255, 78, 78);
+        }
+
+        .formstyle {
+            width: 300px;
+            height: auto;
+            margin: 20px;
+            border: 3px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        input {
+            width: 20px;
+            background-color: rgb(41, 41, 41);
+            color: rgb(255, 255, 255);
+            border: 3px solid rgb(182, 202, 2);
+            border-radius: 10px;
+            padding: 20px 30px 20px 23px;
+            margin: 5px;
+            font-size: 20px;
+        }
+
+        #calc {
+            width: 240px;
+            border: 3px solid rgb(182, 202, 2);
+            border-radius: 3px;
+            padding: 20px;
+            margin: auto;
+        }
+    </style>
+</head>
+<script>
+    da = "";
+    function add(chr) {
+        document.getElementById("calc").value += chr;
+        da += chr;
+    }
+    function cal() {
+        document.getElementById("calc").value = eval(da);
+        da = "";
+    }
+    function clr() {
+        document.getElementById("calc").value = "";
+        da = "";
+    }
+    document.write(abc)
+</script>
+
+<body>
+    <div class="formstyle">
+        <form name="form1">
+            <input id="calc" type="text" name="answer"> <br> <br>
+            <input type="button" value="1" onclick="add(this.value)">
+            <input type="button" value="2" onclick="add(this.value)">
+            <input type="button" value="3" onclick="add(this.value)">
+            <input type="button" value="+" onclick="add(this.value)">
+            <br> <br>
+            <input type="button" value="4" onclick="add(this.value)">
+            <input type="button" value="5" onclick="add(this.value)">
+            <input type="button" value="6" onclick="add(this.value)">
+            <input type="button" value="-" onclick="add(this.value)">
+            <br> <br>
+            <input type="button" value="7" onclick="add(this.value)">
+            <input type="button" value="8" onclick="add(this.value)">
+            <input type="button" value="9" onclick="add(this.value)">
+            <input type="button" value="*" onclick="add(this.value)">
+            <br> <br>
+            <input type="button" value="/" onclick="add(this.value)">
+            <input type="button" value="0" onclick="add(this.value)">
+            <input type="button" value="." onclick="add(this.value)">
+            <input type="button" value="=" onclick="cal()">
+            <br>
+            <input type="button" value="Clear" id="clear" onclick="clr()">
+            <br>
+
+        </form>
+    </div>
+</body>
+
+</html>

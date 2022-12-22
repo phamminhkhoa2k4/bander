@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        h2 {
+            text-align:center;
+            color:indianred
+        }
+        span {
+            font-size: 30px;
+        }
+        form {
+            margin-top: 30px;
+        }
+        hr {
+            height: 2px;
+            background-color: blue;
+        }
+        b {
+            color:red;
+        }
+    </style>
+    <script>
+         function nyen() {
+            f = document.getElementById('register');
+            var email_pattern = /^[a-aZ-Z]\w*(\.\w+)*\@\w+(\.\w{2,3})+$/;
+            if(document.getElementById('fullname').value ==""){
+                alert("fullname can't empty");
+                f.fullname.focus();
+                return false;
+            }
+            if(document.getElementById('old').value ==""){
+                alert("old can't empty");
+                f.old.focus(); 
+                return false;
+            } if (document.getElementById('old').value < 18){
+                alert('you are not old enough')
+                f.old.focus();
+                return false;
+            }
+            if(document.getElementById('identify').value ==""){
+                alert("identify can't empty");
+                f.identify.focus();
+                return false;
+            }
+            if(document.getElementById('workplace').value ==""){
+                alert("workplace can't empty");
+                f.workplace.focus();
+                return false;
+            }
+            if(document.getElementById('male').checked==false && document.getElementById('female').checked==false){
+                alert('You must select at  one sexual ');
+                return false ;
+            }
+              if(f.student.checked==false && f.engineer.checked==false && f.diference.checked==false){
+                alert('You must select at least one occupation');
+                f.student.focus();
+                return false ;
+            }  
+            //   if(email_pattern.test(f.email.value)==false){
+            //      alert('Invalid email address');
+            //    f.email.focus();
+            //     return false ;
+            // }  
+             if(document.getElementById('username').value ==""){
+                alert("username can't empty");
+                f.username.focus(); 
+                return false;
+            }
+            if(document.getElementById('password').value ==""){
+                alert("password can't empty");
+                f.password.focus(); 
+                return false;
+            }else
+            if(document.getElementById('password').value.length < 4){
+                alert('password length must be from 6 to 20 characters');
+                f.password.focus();
+                return false ;
+            }
+             if(f.password.value != f.confirm.value){
+                alert("password doesn't match");
+                f.confirm.focus();
+                return false ;
+            }
+            var login = document.getElementById('username').value ;
+            var pass = document.getElementById('password').value;
+            var name = document.getElementById ('fullname').value;
+            document.write('Chào mừng <b> '  +name +' </b> tham gia diễn đàn<br><br><br>');
+            document.write('Tên đăng nhập của bạn là:' + login + '.<br>');
+            document.write('Mật khẩu của bạn là:' + pass + '.')
+        }
+        
+    </script>
+</head>
+<body>
+    <h2>Đăng ký thành viên diễn đàn tin học <span>C-Forum</span></h2>
+    <br>
+    <hr>
+    <form action="" id="register">
+        <table>
+            <tr>
+                <td><label for="fullname">Họ tên</label></td>
+                <td><input type="text" id="fullname" name=fullname"></td>
+                <td><label for="old">Tuổi </label></td>
+                <td><input type="number" id="old" name="old" min="18" max="130" step="1"></td>
+            </tr>
+            <tr>
+                <td><label for="identify">Biệt danh</label></td>
+                <td><input type="text" id="identify" name="identify"></td>
+                <td><label for="">Giới tính </label></td>
+                <td><input type="radio"  id="male" name="sexual"><label for="">Nam</label><input type="radio" id="female" name="sexual"><label for="">Nữ</label></td>
+            </tr>
+            <tr>
+                <td><label for="">Nơi làm việc</label></td>
+                <td>
+                    <input list="lists" id="workplace" name="list">
+                        <datalist id="lists">
+                            <option value="home">
+                            <option value="firm">
+                        </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Nghề nghiệp</label></td>
+                <td><input type="checkbox" id="student" name="student"><label for="student">Sinh viên tin học</label><input type="checkbox" id="engineer" name="engineer"><label for="engineer">Kỹ sư tin học </label><input type="checkbox" id="diference" name="diference"><label for="diference">Khác</label></td>
+            </tr>
+            <tr>
+                <td><label for="email">Địa chỉ Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="username">Tên đăng nhập</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Mật khẩu </label></td>
+                <td><input type="password" id="password" name="password"></td>
+                <td><label for="confirm">Nhắc lại mật khẩu</label></td>
+                <td><input type="password" id="confirm" name="confirm"></td>
+            </tr>
+            <tr>
+                <td><label for="">Thông tin khác</label></td>
+                <td><textarea name="desc" id="desc" cols="30" rows="2" placeholder="(Các thông tin cần thiết)"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="button" value=" Đăng ký " onclick="nyen()">&NonBreakingSpace;<input type="reset" value="Ghi lại"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

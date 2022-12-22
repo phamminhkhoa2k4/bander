@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: beige;
+        }
+        body {
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>bản phép tính</h1>
+    <script src="calc.js"></script>
+    <form name="khoa" id="khoa">
+        <label for="khoa1">so nguyen a:</label>
+        <input type="number" name="khoa1" id="khoa1"  min="0" step="1"><br><br>
+        <label for="khoa2">so nguyen b:</label>
+        <input type="number" name="khoa2" id="khoa2" min="0" step="1"><br><br>
+        <label for="khoa3">toan tu:</label>
+        <select name="khoa3" id="khoa3">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select><br><br>
+        <input type="button" onclick="tinh();" name="khoa4" id="khoa4" value="tinh"><br>
+        <label for="khoa5">ket qua</label>
+        <input type="text" name="khoa5" id="khoa5" readonly>
+    </form>
+    
+</body>
+</html>

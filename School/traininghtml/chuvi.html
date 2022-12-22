@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <script src="chuvi.js"></script>
+    <form id="khoa" name="khoa">
+        <table>
+            <tr>
+                <td><label for="cdai">chiều dài:</label></td>
+                <td><input type="nunber" id="cdai" name="cdai" placeholder="nhập vào đây right now"></td>
+            </tr>
+            <tr>
+                <td><label for="crong">chiều rộng:</label></td>
+                <td><input type="number" id="crong" name="crong" placeholder="nhập vào đây right now"></td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="tinh();" id="btn-calc" name="btn-calc" value="tính"></td>
+            </tr>
+            <tr>
+                <td><label for="chuvi">chu vi:</label></td>
+                <td><input type="number" id="chuvi" name="chuvi" readonly></td>
+            </tr>
+             <tr>
+                <td><label for="dientich">diện tích:</label></td>
+                <td><input type="number" id="dientich" name="dientich" readonly></td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>

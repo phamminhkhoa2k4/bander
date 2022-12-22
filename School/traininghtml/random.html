@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        n1 = 0;
+        n2 = 0;
+     function taoso(){
+        n1 = 0;
+        n2 = 0;
+        n1 = Math.round(Math.random()*99) + 1; 
+        document.getElementById('so1').value = n1;
+        n2 = Math.round(Math.random()*99) + 1;
+        document.getElementById('so2').value = n2;
+        // demo.so1.value = n1
+        // demo.so2.value = n2
+    }
+
+    function tinhtoan(){
+        document.getElementById('kq1').value = n1 + n2;
+        document.getElementById('kq2').value = n1 - n2;
+        document.getElementById('kq3').value = n1 * n2;
+        document.getElementById('kq4').value = n1 / n2;
+        // demo.kq1.value = n1 + n2;
+        // demo.kq2.value = n1 - n2;
+        // demo.kq3.value = n1 * n2;
+        // demo.kq4.value = n1 / n2;
+    }
+    </script>
+</head>
+    <body onLoad="taoso()">
+    <form action="" method="post" name="demo">
+        Tạo số ngẫu nhiên 1 : <input type="text" name="so1" id="so1" value="" style="width:100" /><br>
+        Tạo số ngẫu nhiên 2 : <input type="text" name="so2" id="so2" value="" style="width:100" /><br>
+        <hr align="left" color="#000099" size="1" width="400">
+        <input type="button" name="btn1" value="Tạo số mới" style="width:150" onClick="taoso()" />
+        <input type="button" name="btn2" value="Tính toán" style="width:150" onClick="tinhtoan()" />
+        <table cellspacing="0" cellpađing="0">
+            <tr>
+                <td>Cộng</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="text" name="kq1" id="kq1" value="" style="width:100" readonly /></td>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Trừ</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="text" name="kq2" id="kq2" value="" style="width:100" readonly /></td>
+                <td>&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Nhân</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="text" name="kq3" id="kq3" value="" style="width:100" readonly /></td>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Chia</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="text" name="kq4" id="kq4" value="" style="width:100" readonly /></td>
+                <td>&nbsp;&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+    <br><hr align="left" color="#000099" size="1" width="70%">
+    <br>Viết đoạn mã JavaScript thực hiện các yêu cầu sau:
+    <br>- Tạo 2 số ngẫu nhiên (>0 và <=100).
+    <br>- Khi bấm chuột vào nút <b>"tạo số"</b>, tạo lại số ngẫu nhiên mới.
+    <br>- Khi bấm chuột vào nút <b>"tính toán"</b>, thực hiện các phép toán +, -, *, / và đưa các quả vào các ô tương ứng.
+    </body>
+</html>

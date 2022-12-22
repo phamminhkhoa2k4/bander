@@ -1,0 +1,1950 @@
+s
+<!DOCTYPE html>
+<html5 dir=5ltr" lang="vi" xml:lang="vi">
+<head>
+    <title>CTU-fake</title>
+    <link rel="shortcut icon" href="https://elearning.ctu.edu.vn/pluginfile.php/1/theme_lambda/favicon/1667958338/favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, CTU E-learning: Tất cả các khoá học" />
+<link rel="stylesheet" type="text/css" href="https://elearning.ctu.edu.vn/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://elearning.ctu.edu.vn/theme/styles.php/lambda/1667958338_1/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/elearning.ctu.edu.vn","sesskey":"xiQnwrUQ5V","sessiontimeout":"7200","themerev":"1667958338","slasharguments":1,"theme":"lambda","iconsystemmodule":"core\/icon_system_standard","jsrev":"1655782918","admin":"admin","svgicons":true,"usertimezone":"Asia\/Ho_Chi_Minh","contextid":23,"langrev":1667510225,"templaterev":"1655782918"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/elearning.ctu.edu.vn\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/elearning.ctu.edu.vn\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/elearning.ctu.edu.vn\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/elearning.ctu.edu.vn\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/elearning.ctu.edu.vn\/theme\/yui_combo.php?m\/1655782918\/","combine":true,"comboBase":"https:\/\/elearning.ctu.edu.vn\/theme\/yui_combo.php?","ext":false,"root":"m\/1655782918\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_offlinequiz-offlinequizbase":{"requires":["base","node"]},"moodle-mod_offlinequiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_offlinequiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_offlinequiz-offlinequizbase","moodle-mod_offlinequiz-util-base","moodle-mod_offlinequiz-util-page","moodle-mod_offlinequiz-util-slot","moodle-course-util"]},"moodle-mod_offlinequiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_offlinequiz-util","querystring-parse"]},"moodle-mod_offlinequiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_offlinequiz-offlinequizbase","moodle-mod_offlinequiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_offlinequiz-offlinequizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_offlinequiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_offlinequiz-modform":{"requires":["base","node","event"]},"moodle-mod_offlinequiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_offlinequiz-util":{"requires":["node"],"use":["moodle-mod_offlinequiz-util-base"],"submodules":{"moodle-mod_offlinequiz-util-base":{},"moodle-mod_offlinequiz-util-slot":{"requires":["node","moodle-mod_offlinequiz-util-base"]},"moodle-mod_offlinequiz-util-page":{"requires":["node","moodle-mod_offlinequiz-util-base"]}}},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemistry-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_teamsmeeting-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/elearning.ctu.edu.vn\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/elearning.ctu.edu.vn\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1655782918\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/elearning.ctu.edu.vn\/lib\/javascript.php\/1655782918\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/elearning.ctu.edu.vn\/lib\/javascript.php\/1655782918\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400%7CRoboto:500" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+</head>
+
+<body  id="page-course-index-category" class="format-site  path-course path-course-index chrome dir-ltr lang-vi yui-skin-sam yui3-skin-sam elearning-ctu-edu-vn pagelayout-coursecategory course-1 context-23 category-3 columns3 has-region-side-pre has-region-side-post used-region-side-pre empty-region-side-post blockstyle-02">
+
+<div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Chuyển tới nội dung chính</a>
+</div><script src="https://elearning.ctu.edu.vn/lib/javascript.php/1655782918/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://elearning.ctu.edu.vn/lib/javascript.php/1655782918/lib/polyfills/polyfill.js"></script>
+<script src="https://elearning.ctu.edu.vn/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://elearning.ctu.edu.vn/theme/jquery.php/core/jquery-3.4.1.min.js"></script>
+<script src="https://elearning.ctu.edu.vn/lib/javascript.php/1655782918/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+<div id="wrapper">
+
+
+
+<header id="page-header" class="clearfix">              	
+		<div class="container-fluid">    
+	<div class="row-fluid">
+
+				<div class="span6">
+			<div class="logo-header">
+				<a class="logo" href="https://elearning.ctu.edu.vn" title="Trang chủ">
+					<img src="//elearning.ctu.edu.vn/pluginfile.php/1/theme_lambda/logo/1667958338/Asset%2013elearning.png" class="img-responsive" alt="logo" />				</a>
+			</div>
+		</div>
+		      	
+
+		<div class="span6 login-header">
+			<div class="profileblock">
+
+				<div id="loggedin-user"><div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="63843"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link icon-no-margin"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-63790bd83c3aa63790bd823cf716"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <img class="icon " alt="Toggle notifications menu" title="Toggle notifications menu" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/notifications" />
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="There are 0 unread notifications">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-63790bd83c3aa63790bd823cf716"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Cửa sổ thông báo"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Thông báo</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Đánh dấu tất cả là đã đọc"
+           data-action="mark-all-read"
+           role="button"
+           aria-label="Đánh dấu tất cả là đã đọc">
+            <span class="normal-icon"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/markasread" /></span>
+            <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+        </a>
+        <a href="https://elearning.ctu.edu.vn/message/notificationpreferences.php?userid=63843"
+           title="Tùy chọn thông báo"
+           aria-label="Tùy chọn thông báo">
+            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/settings" />
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Bạn không có thông báo</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://elearning.ctu.edu.vn/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed" data-region="popover-region-messages">
+    <a id="message-drawer-toggle-63790bd83d9e463790bd823cf717" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
+            role="button">
+        <img class="icon " alt="Toggle messaging drawer" title="Toggle messaging drawer" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/message" />
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="There are 0 unread conversations">0</div>
+    </a>
+    <span class="sr-only sr-only-focusable" data-region="jumpto" tabindex="-1"></span></div><div class="popover-region collapsed popover-region-mail"
+            id="nav-mail-popover-container"
+
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link icon-no-margin"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-63790bd83ec9263790bd823cf718"
+        aria-haspopup="true"
+        aria-label="Toggle mail menu"
+        tabindex="0">
+                <img class="icon " alt="Toggle mail menu" title="Toggle mail menu" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/local_mail/1667958338/icon" />
+
+    </div>
+    <div 
+        id="popover-region-container-63790bd83ec9263790bd823cf718"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Mail menu"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Mail</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a href="https://elearning.ctu.edu.vn/local/mail/create.php" class="mail-navbar-menu-compose-link">
+            Compose
+        </a>
+        <a href="https://elearning.ctu.edu.vn/local/mail/preferences.php" title="Tuỳ chọn">
+            <img class="icon " alt="Tuỳ chọn" title="Tuỳ chọn" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/settings" />
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="mail-navbar-menu">
+            <a href="https://elearning.ctu.edu.vn/local/mail/view.php?t=inbox" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/local_mail/1667958338/inbox" />
+                Inbox
+            </a>
+            <a href="https://elearning.ctu.edu.vn/local/mail/view.php?t=starred" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/local_mail/1667958338/starred" />
+                Starred
+            </a>
+            <a href="https://elearning.ctu.edu.vn/local/mail/view.php?t=drafts" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/local_mail/1667958338/drafts" />
+                Drafts
+            </a>
+            <a href="https://elearning.ctu.edu.vn/local/mail/view.php?t=sent" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/local_mail/1667958338/sent" />
+                Sent
+            </a>
+            <a href="https://elearning.ctu.edu.vn/local/mail/view.php?t=trash" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/local_mail/1667958338/trash" />
+                Trash
+            </a>
+            <a href="https://elearning.ctu.edu.vn/local/mail/view.php?t=course&amp;c=2279" title="Nền tảng CNTT (DC2296N1)"
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/local_mail/1667958338/course" />
+                DC2296N1
+            </a>
+        </div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+        </div>
+    </div>
+</div><div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-0" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-0-menubar" role="menubar">
+
+            <style>
+                h4 {
+                    color:aquamarine;
+                } 
+            </style>
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="javascript:void(0)" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-0" aria-label="Thư mục người dùng" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-0-menu">
+                            
+                            <span class="userbutton"><span class="usertext mr-1"><h4>khoa đẹp trai</h4></span><span class="avatars"><span class="avatar current"><img src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/u/f2" class="userpicture defaultuserpic" width="35" height="35" aria-hidden="true" /></span></span></span>
+                                
+                            <div class="caret"></div>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-0-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-0" role="menu" data-align="tr-br">
+                                        <a href="https://elearning.ctu.edu.vn/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/dashboard" />
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Trang cá nhân
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://elearning.ctu.edu.vn/user/profile.php?id=63843" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/user" />
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Hồ sơ
+                                            </span>
+                                        </a>
+                                        <a href="https://elearning.ctu.edu.vn/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-3">
+                                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/message" />
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                Tin nhắn
+                                            </span>
+                                        </a>
+                                        <a href="https://elearning.ctu.edu.vn/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-4">
+                                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/preferences" />
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Tuỳ chọn
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://elearning.ctu.edu.vn/login/logout.php?sesskey=xiQnwrUQ5V" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-5">
+                                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/a/logout" />
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Thoát
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div><a href="https://elearning.ctu.edu.vn/user/profile.php?id=63843" class="d-inline-block aabtn"><img src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/u/f1" class="welcome_userpicture defaultuserpic" width="80" height="80" alt="Hình của Khoa Pham Minh" title="Hình của Khoa Pham Minh" /></a></div>
+						</div>
+					</div>
+
+				</div>
+			</div>               
+</header>
+<header class="navbar">
+    <nav class="navbar-inner">
+        <div class="lambda-custom-menu container-fluid">
+            <a class="brand" href="https://elearning.ctu.edu.vn">Trang chủ</a>            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav"><li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" title="Các khoá học của tôi">Các khoá học của tôi<div class="caret"></div></a><ul class="dropdown-menu"><li><a title="Nền tảng CNTT (DC2296N1)" href="https://elearning.ctu.edu.vn/course/view.php?id=2279">Nền tảng CNTT (DC2296N1)</a></li></ul><li class="dropdown langmenu"><a href="" class="dropdown-toggle" data-toggle="dropdown" title="Ngôn ngữ">Vietnamese ‎(vi)‎<div class="caret"></div></a><ul class="dropdown-menu"><li><a title="English ‎(en)‎" href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;lang=en">English ‎(en)‎</a></li><li><a title="Vietnamese ‎(vi)‎" href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;lang=vi">Vietnamese ‎(vi)‎</a></li></ul></ul>                <ul class="nav pull-right">
+                    <li></li>
+                </ul>
+                
+                                
+                                <form id="search" action="https://elearning.ctu.edu.vn/course/search.php" >
+                	<label for="coursesearchbox" class="lambda-sr-only">Tìm kiếm khoá học</label>						
+					<input id="coursesearchbox" type="text" onFocus="if(this.value =='Tìm kiếm khoá học' ) this.value=''" onBlur="if(this.value=='') this.value='Tìm kiếm khoá học'" value="Tìm kiếm khoá học" name="search" >
+					<button type="submit"><span class="lambda-sr-only">Gửi</span></button>						
+				</form>
+                                
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<!-- Start Main Regions -->
+<div id="page" class="container-fluid">
+
+    <div id ="page-header-nav" class="clearfix">
+    	        <div id="page-navbar" class="clearfix">
+            <div class="breadcrumb-nav"><span class="accesshide" id="navbar-label">Đường dẫn đến trang</span><nav aria-labelledby="navbar-label"><ul class="breadcrumb"><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://elearning.ctu.edu.vn/"><span itemprop="title">Trang chủ</span></a></span> <span class="divider"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> </span></li><li><span tabindex="0">Các khoá học của tôi</span> <span class="divider"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> </span></li><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" aria-current="page" href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3"><span itemprop="title">Trường Công nghệ Thông tin &amp; Truyền thông	</span></a></span></li></ul></nav></div>
+            <nav class="breadcrumb-button"></nav>
+        </div>
+            </div>
+
+    <div id="page-content" class="row-fluid">
+        <div id="region-bs-main-and-pre" class="span9">
+            <div class="row-fluid">
+            	                <section id="region-main" class="span8">
+                                    <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><span></span><div class="categorypicker"><div class="singleselect d-inline-block">
+    <form method="get" action="https://elearning.ctu.edu.vn/course/index.php" class="form-inline" id="switchcategory">
+            <label for="single_select63790bd823cf71">
+                Danh mục khoá học:
+            </label>
+        <select  id="single_select63790bd823cf71" class="custom-select singleselect" name="categoryid"
+                 >
+                    <option  value="17" >Khoa Giáo dục Thể chất	</option>
+                    <option  value="2" >Trường Bách Khoa</option>
+                    <option  value="3" selected>Trường Công nghệ Thông tin &amp; Truyền thông	</option>
+                    <option  value="4" >Khoa Dự bị Dân tộc	</option>
+                    <option  value="5" >Khoa Khoa học Chính trị	</option>
+                    <option  value="6" >Khoa Khoa học Tự nhiên	</option>
+                    <option  value="7" >Khoa Khoa học Xã hội &amp; Nhân văn	</option>
+                    <option  value="8" >Trường Kinh tế </option>
+                    <option  value="9" >Khoa Luật	</option>
+                    <option  value="10" >Khoa Môi trường &amp; Tài nguyên Thiên nhiên	</option>
+                    <option  value="11" >Khoa Ngoại ngữ	</option>
+                    <option  value="28" >Khoa Ngoại ngữ	 / BM Tiếng Anh căn bản và chuyên ngành</option>
+                    <option  value="29" >Khoa Ngoại ngữ	 / BM Phương pháp dạy học tiếng Anh</option>
+                    <option  value="30" >Khoa Ngoại ngữ	 / BM Phương pháp dạy học tiếng Pháp</option>
+                    <option  value="31" >Khoa Ngoại ngữ	 / BM Ngôn ngữ và văn hóa Anh</option>
+                    <option  value="33" >Khoa Ngoại ngữ	 / BM Ngôn ngữ và văn hóa Pháp</option>
+                    <option  value="12" >Trường Nông nghiệp</option>
+                    <option  value="13" >Khoa Phát triển Nông thôn	</option>
+                    <option  value="14" >Khoa Sau đại học	</option>
+                    <option  value="15" >Khoa Sư phạm	</option>
+                    <option  value="16" >Khoa Thủy sản	</option>
+                    <option  value="1" >Nội dung khác</option>
+                    <option  value="21" >Trường THPT Thực hành sư phạm</option>
+                    <option  value="22" >Trường THPT Thực hành sư phạm / Khối 10</option>
+                    <option  value="23" >Trường THPT Thực hành sư phạm / Khối 11</option>
+                    <option  value="24" >Trường THPT Thực hành sư phạm / Khối 12</option>
+                    <option  value="20" >Viện Công nghệ Sinh học và Thực phẩm</option>
+                    <option  value="18" >Viện Nghiên cứu Biến đổi Khí Hậu	</option>
+                    <option  value="19" >Viện Nghiên cứu Phát triển ĐBSCL	</option>
+                    <option  value="26" >Trung tâm Đào tạo, Nghiên cứu và Tư vấn kinh tế</option>
+                    <option  value="27" >Trung tâm QDQP &amp; AN</option>
+                    <option  value="34" >Trung tâm tư vấn, hỗ trợ và KNSV</option>
+        </select>
+        <noscript>
+            <input type="submit" class="btn btn-secondary ml-1" value="Xem">
+        </noscript>
+    </form>
+</div></div><div class="simplesearchform ">
+    <form autocomplete="off" action="https://elearning.ctu.edu.vn/course/search.php" method="get" accept-charset="utf-8" class="mform form-inline simplesearchform">
+        <input type="hidden" name="areaids" value="core_course-course">
+    <div class="input-group">
+        <label for="searchinput-63790bd824e2f63790bd823cf72">
+            <span class="sr-only">Tìm kiếm khoá học</span>
+        </label>
+        <input type="text"
+           id="searchinput-63790bd824e2f63790bd823cf72"
+           class="form-control"
+           placeholder="Tìm kiếm khoá học"
+           aria-label="Tìm kiếm khoá học"
+           name="q"
+           data-region="input"
+           autocomplete="off"
+           value=""
+        >
+        <div class="input-group-append">
+            <button type="submit" class="btn  btn-primary search-icon">
+                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/a/search" />
+                <span class="sr-only">Tìm kiếm khoá học</span>
+            </button>
+        </div>
+
+    </div>
+    </form>
+</div><div class="course_category_tree clearfix "><div class="content"><div class="courses category-browse category-browse-3"><nav aria-label="Trang" class="pagination pagination-centered justify-content-center">
+        <ul class="mt-1 pagination " data-page-size="20">
+                <li class="page-item active" data-page-number="1">
+                    <a href="#" class="page-link">
+                        1
+                            <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="2">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=1" class="page-link">
+                        2
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="3">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=2" class="page-link">
+                        3
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="4">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=3" class="page-link">
+                        4
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="5">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=4" class="page-link">
+                        5
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="6">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=5" class="page-link">
+                        6
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="7">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=6" class="page-link">
+                        7
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="8">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=7" class="page-link">
+                        8
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="9">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=8" class="page-link">
+                        9
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="10">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=9" class="page-link">
+                        10
+                    </a>
+                </li>
+                <li class="page-item disabled" data-page-number="12">
+                    <span class="page-link">&hellip;</span>
+                </li>
+                <li class="page-item" data-page-number="12">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=11" class="page-link">12</a>
+                </li>
+                <li class="page-item" data-page-number="2">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=1" class="page-link" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Tiếp theo</span>
+                    </a>
+                </li>
+        </ul>
+    </nav><div class="coursebox clearfix odd first collapsed" data-courseid="2279" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2279">Nền tảng CNTT (DC2296N1)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2279"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2278" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2278">Luận văn tốt nghiệp ngành KTPM (Huỳnh Xuân Hiệp, 2022-2023, HK1, CT59402)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2278"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2277" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2277">Niên luận cơ sở ngành KTPM (Huỳnh Xuân Hiệp, 2022-2023, HK1, CT23901)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2277"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2276" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2276">Phát triển phần mềm nhúng (Huỳnh Xuân Hiệp, 2022-2023, HK1, CT23496DC)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2276"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2275" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2275">Phát triển phần mềm mã nguồn mở (CT213H - Thái Minh Tuấn)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2275"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2272" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2272">Nền tảng CNTT (DC21V7N1)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2272"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2267" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2267">CT23907_Niên luận cơ sở ngành Nhóm 07_HK1_22_23 (GV: Huỳnh Quang Nghi)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2267"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2266" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2266">CTH614 - Công nghệ Blockchain (HTTT)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2266"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2261" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2261">TN218-HK1-22-23-N01</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2261"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2260" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2260">CT179 - Quản trị hệ thống - LHQ Bảo</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2260"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2258" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2258">Nền tảng CNTT (DC22V7Q1)</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2258"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2255" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2255">CT178 - NL HDH - Lam Nhut Khang</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2255"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2254" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2254">CT106H - Computer Network</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2254"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2249" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2249">CT101 - Lập trình căn bản A (Nguyễn Công Danh) - Nhóm VLVH - HK1 2022-2023 </a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2249"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2248" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2248">CT178-N10-HK1-2022-2023-NL HĐH - Thầy Lê Văn Lâm</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2248"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2246" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2246">CT178-N11-HK1-2022-2023-NL HĐH - Thầy Lê Văn Lâm</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2246"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2242" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2242">CTH608 - Web ngữ nghĩa</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2242"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="2241" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2241">Mạng máy tính - Nhóm 1 - HK1 - 2022-2023</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2241"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="2240" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2240">Mạng máy tính - Nhóm 2 - HK1-2022-2022</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2240"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><div class="coursebox clearfix even last collapsed" data-courseid="2239" data-type="1"><div class="info"><div class="coursename"><a class="aalink" href="https://elearning.ctu.edu.vn/course/view.php?id=2239">CT204 - An toàn và bảo mật thông tin - HK1 2022-23 - GV LQThắng, TVChâu</a></div><div class="moreinfo"><a title="Tóm tắt" href="https://elearning.ctu.edu.vn/course/info.php?id=2239"><img class="icon " alt="Tóm tắt" title="Tóm tắt" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/info" /></a></div><div class="enrolmenticons"><img class="icon " alt="Tự đăng kí" title="Tự đăng kí" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/enrol_self/1667958338/withoutkey" /></div></div><div class="content"></div></div><nav aria-label="Trang" class="pagination pagination-centered justify-content-center">
+        <ul class="mt-1 pagination " data-page-size="20">
+                <li class="page-item active" data-page-number="1">
+                    <a href="#" class="page-link">
+                        1
+                            <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="2">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=1" class="page-link">
+                        2
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="3">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=2" class="page-link">
+                        3
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="4">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=3" class="page-link">
+                        4
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="5">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=4" class="page-link">
+                        5
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="6">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=5" class="page-link">
+                        6
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="7">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=6" class="page-link">
+                        7
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="8">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=7" class="page-link">
+                        8
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="9">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=8" class="page-link">
+                        9
+                    </a>
+                </li>
+                <li class="page-item " data-page-number="10">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=9" class="page-link">
+                        10
+                    </a>
+                </li>
+                <li class="page-item disabled" data-page-number="12">
+                    <span class="page-link">&hellip;</span>
+                </li>
+                <li class="page-item" data-page-number="12">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=11" class="page-link">12</a>
+                </li>
+                <li class="page-item" data-page-number="2">
+                    <a href="https://elearning.ctu.edu.vn/course/index.php?categoryid=3&amp;browse=courses&amp;perpage=20&amp;page=1" class="page-link" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Tiếp theo</span>
+                    </a>
+                </li>
+        </ul>
+    </nav></div></div></div><div class="buttons"></div></div>                </section>
+                <aside id="block-region-side-pre" class="span4 desktop-first-column pull-right block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Bỏ qua Điều hướng</a>
+
+<section id="inst41"
+     class=" block_navigation block  card mb-3"
+     role="navigation"
+     data-block="navigation"
+          aria-labelledby="instance-41-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-41-header" class="card-title d-inline">Điều hướng</h5>
+
+
+        <div class="card-text content mt-3">
+            <ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/nav_loader"><li class="type_unknown depth_1 contains_branch" aria-labelledby="label_1_1"><p class="tree_item branch navigation_node" role="treeitem" aria-expanded="true" aria-owns="random63790bd823cf73_group" data-collapsible="false"><a tabindex="-1" id="label_1_1" href="https://elearning.ctu.edu.vn/">Trang chủ</a></p><ul id="random63790bd823cf73_group" role="group"><li class="type_setting depth_2 item_with_icon" aria-labelledby="label_2_2"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_2_2" href="https://elearning.ctu.edu.vn/my/"><img class="icon navicon" alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/dashboard" /><span class="item-content-wrap">Trang cá nhân</span></a></p></li><li class="type_course depth_2 contains_branch" aria-labelledby="label_2_3"><p class="tree_item branch" role="treeitem" aria-expanded="false" aria-owns="random63790bd823cf75_group"><span tabindex="-1" id="label_2_3" title="Welcome to CTU E-learning!">Welcome to CTU E-learning!</span></p><ul id="random63790bd823cf75_group" role="group" aria-hidden="true"><li class="type_unknown depth_3 item_with_icon" aria-labelledby="label_3_5"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_3_5" href="https://elearning.ctu.edu.vn/blog/index.php"><img class="icon navicon" alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/navigationitem" /><span class="item-content-wrap">Các trang blog</span></a></p></li><li class="type_setting depth_3 item_with_icon" aria-labelledby="label_3_6"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_3_6" href="https://elearning.ctu.edu.vn/tag/search.php"><img class="icon navicon" alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/navigationitem" /><span class="item-content-wrap">Thẻ</span></a></p></li><li class="type_custom depth_3 item_with_icon" aria-labelledby="label_3_7"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_3_7" href="https://elearning.ctu.edu.vn/calendar/view.php?view=month"><img class="icon navicon" alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/calendar" /><span class="item-content-wrap">Lịch</span></a></p></li><li class="type_activity depth_3 item_with_icon" aria-labelledby="label_3_9"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_3_9" title="Diễn đàn" href="https://elearning.ctu.edu.vn/mod/forum/view.php?id=145"><img class="icon navicon" alt="Diễn đàn" title="Diễn đàn" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/forum/1667958338/icon" /><span class="item-content-wrap">Tin tức chung</span></a></p></li></ul></li><li class="type_system depth_2 contains_branch" aria-labelledby="label_2_11"><p class="tree_item branch" role="treeitem" aria-expanded="true" aria-owns="random63790bd823cf710_group"><span tabindex="-1" id="label_2_11">Các khoá học của tôi</span></p><ul id="random63790bd823cf710_group" role="group"><li class="type_unknown depth_3 contains_branch current_branch" aria-labelledby="label_3_12"><p class="tree_item branch active_tree_node canexpand" role="treeitem" aria-expanded="true" aria-owns="random63790bd823cf711_group"><span tabindex="-1" id="label_3_12">Trường Công nghệ Thông tin &amp; Truyền thông	</span></p><ul id="random63790bd823cf711_group" role="group"><li class="type_course depth_4 contains_branch" aria-labelledby="label_4_13"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_2279" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_2279" data-node-key="2279" data-node-type="20"><a tabindex="-1" id="label_4_13" title="Nền tảng CNTT (DC2296N1)" href="https://elearning.ctu.edu.vn/course/view.php?id=2279">Nền tảng CNTT (DC2296N1)</a></p></li></ul></li></ul></li><li class="type_system depth_2 contains_branch" aria-labelledby="label_2_14"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="false" aria-owns="random63790bd823cf712_group"><a tabindex="-1" id="label_2_14" href="https://elearning.ctu.edu.vn/course/index.php">Khoá học</a></p><ul id="random63790bd823cf712_group" role="group" aria-hidden="true"><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_15"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_17" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_17" data-node-key="17" data-node-type="10"><span tabindex="-1" id="label_3_15">Khoa Giáo dục Thể chất	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_16"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_2" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_2" data-node-key="2" data-node-type="10"><span tabindex="-1" id="label_3_16">Trường Bách Khoa</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_17"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_4" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_4" data-node-key="4" data-node-type="10"><span tabindex="-1" id="label_3_17">Khoa Dự bị Dân tộc	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_18"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_5" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_5" data-node-key="5" data-node-type="10"><span tabindex="-1" id="label_3_18">Khoa Khoa học Chính trị	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_19"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_6" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_6" data-node-key="6" data-node-type="10"><span tabindex="-1" id="label_3_19">Khoa Khoa học Tự nhiên	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_20"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_7" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_7" data-node-key="7" data-node-type="10"><span tabindex="-1" id="label_3_20">Khoa Khoa học Xã hội &amp; Nhân văn	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_21"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_8" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8" data-node-key="8" data-node-type="10"><span tabindex="-1" id="label_3_21">Trường Kinh tế </span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_22"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_9" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_9" data-node-key="9" data-node-type="10"><span tabindex="-1" id="label_3_22">Khoa Luật	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_23"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_10" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_10" data-node-key="10" data-node-type="10"><span tabindex="-1" id="label_3_23">Khoa Môi trường &amp; Tài nguyên Thiên nhiên	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_24"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="false" aria-owns="random63790bd823cf713_group"><span tabindex="-1" id="label_3_24">Khoa Ngoại ngữ	</span></p><ul id="random63790bd823cf713_group" role="group" aria-hidden="true"><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_25"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_28" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_28" data-node-key="28" data-node-type="10"><span tabindex="-1" id="label_4_25">BM Tiếng Anh căn bản và chuyên ngành</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_26"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_29" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_29" data-node-key="29" data-node-type="10"><span tabindex="-1" id="label_4_26">BM Phương pháp dạy học tiếng Anh</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_27"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_30" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_30" data-node-key="30" data-node-type="10"><span tabindex="-1" id="label_4_27">BM Phương pháp dạy học tiếng Pháp</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_28"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_31" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_31" data-node-key="31" data-node-type="10"><span tabindex="-1" id="label_4_28">BM Ngôn ngữ và văn hóa Anh</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_29"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_33" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_33" data-node-key="33" data-node-type="10"><span tabindex="-1" id="label_4_29">BM Ngôn ngữ và văn hóa Pháp</span></p></li></ul></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_30"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_12" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_12" data-node-key="12" data-node-type="10"><span tabindex="-1" id="label_3_30">Trường Nông nghiệp</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_31"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_13" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_13" data-node-key="13" data-node-type="10"><span tabindex="-1" id="label_3_31">Khoa Phát triển Nông thôn	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_32"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_14" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_14" data-node-key="14" data-node-type="10"><span tabindex="-1" id="label_3_32">Khoa Sau đại học	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_33"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_15" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_15" data-node-key="15" data-node-type="10"><span tabindex="-1" id="label_3_33">Khoa Sư phạm	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_34"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_16" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_16" data-node-key="16" data-node-type="10"><span tabindex="-1" id="label_3_34">Khoa Thủy sản	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_35"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_1" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_1" data-node-key="1" data-node-type="10"><span tabindex="-1" id="label_3_35">Nội dung khác</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_36"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="false" aria-owns="random63790bd823cf714_group"><span tabindex="-1" id="label_3_36">Trường THPT Thực hành sư phạm</span></p><ul id="random63790bd823cf714_group" role="group" aria-hidden="true"><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_37"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_22" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_22" data-node-key="22" data-node-type="10"><span tabindex="-1" id="label_4_37">Khối 10</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_38"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_23" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_23" data-node-key="23" data-node-type="10"><span tabindex="-1" id="label_4_38">Khối 11</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_39"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_24" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_24" data-node-key="24" data-node-type="10"><span tabindex="-1" id="label_4_39">Khối 12</span></p></li></ul></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_40"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_20" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_20" data-node-key="20" data-node-type="10"><span tabindex="-1" id="label_3_40">Viện Công nghệ Sinh học và Thực phẩm</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_41"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_18" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_18" data-node-key="18" data-node-type="10"><span tabindex="-1" id="label_3_41">Viện Nghiên cứu Biến đổi Khí Hậu	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_42"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_19" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_19" data-node-key="19" data-node-type="10"><span tabindex="-1" id="label_3_42">Viện Nghiên cứu Phát triển ĐBSCL	</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_43"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_26" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_26" data-node-key="26" data-node-type="10"><span tabindex="-1" id="label_3_43">Trung tâm Đào tạo, Nghiên cứu và Tư vấn kinh tế</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_44"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_27" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_27" data-node-key="27" data-node-type="10"><span tabindex="-1" id="label_3_44">Trung tâm QDQP &amp; AN</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_45"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_34" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_34" data-node-key="34" data-node-type="10"><span tabindex="-1" id="label_3_45">Trung tâm tư vấn, hỗ trợ và KNSV</span></p></li></ul></li></ul></li></ul>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1"></span></aside>            </div>
+        </div>
+        <aside id="block-region-side-post" class="span3 block-region" data-blockregion="side-post" data-droptarget="1"></aside>    </div>
+    
+    <!-- End Main Regions -->
+
+    <a href="#top" class="back-to-top"><span class="lambda-sr-only">Quay lại</span></a>
+
+	</div>
+	<div
+    id="drawer-63790bd84235363790bd823cf728"
+    class=" drawer bg-white hidden"
+    aria-expanded="false"
+    aria-hidden="true"
+    data-region="right-hand-drawer"
+    role="region"
+    tabindex="0"
+>
+            <div id="message-drawer-63790bd84235363790bd823cf728" class="message-app" data-region="message-drawer" role="region">
+    		<div class="drawer-top p-2 border-bottom bg-secondary text-right">
+        		<a id="message-drawer-close-63790bd84235363790bd823cf728" class="" href="#">
+            		<img class="icon " alt="Toggle messaging drawer" title="Toggle messaging drawer" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/window_close" />
+        		</a>
+    		</div>
+            <div class="header-container position-relative" data-region="header-container">
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-contacts">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch">
+                            <a class="h-100 d-flex align-items-center mr-2" href="#" data-route-back role="button">
+                                <span class="dir-rtl-hide"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed_rtl" /></span>
+                                <span class="dir-ltr-hide"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed" /></span>                            </a>
+                        </div>
+                        <div>
+                            Liên lạc
+                        </div>
+                        <div class="ml-auto">
+                            <a href="#" data-route="view-search" role="button" aria-label="Tìm kiếm">
+                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/a/search" />
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                <div
+                    class="hidden bg-white position-relative border-bottom p-1 p-sm-2"
+                    aria-hidden="true"
+                    data-region="view-conversation"
+                >
+                    <div class="hidden" data-region="header-content"></div>
+                    <div class="hidden" data-region="header-edit-mode">
+                        
+                        <div class="d-flex p-2 align-items-center">
+                            Messages selected:
+                            <span class="ml-1" data-region="message-selected-court">1</span>
+                            <button type="button" class="ml-auto close" aria-label="Cancel message selection"
+                                data-action="cancel-edit-mode">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div data-region="header-placeholder">
+                        <div class="d-flex">
+                            <div
+                                class="ml-2 rounded-circle bg-pulse-grey align-self-center"
+                                style="height: 38px; width: 38px"
+                            >
+                            </div>
+                            <div class="ml-2 " style="flex: 1">
+                                <div
+                                    class="mt-1 bg-pulse-grey w-75"
+                                    style="height: 16px;"
+                                >
+                                </div>
+                            </div>
+                            <div
+                                class="ml-2 bg-pulse-grey align-self-center"
+                                style="height: 16px; width: 20px"
+                            >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="hidden position-absolute"
+                        data-region="confirm-dialogue-container"
+                        style="top: 0; bottom: -1px; right: 0; left: 0; background: rgba(0,0,0,0.3);"
+                    ></div>
+                </div>                <div class="border-bottom px-2 py-3" aria-hidden="false"  data-region="view-overview">
+                    <div class="d-flex align-items-center">
+                        <div class="input-prepend d-flex flex-grow m-0">
+                            <span class="add-on bg-white pr-0">
+                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/a/search" />
+                            </span>
+                            <input
+                                type="text"
+                                class="form-control border-left-0 searchinput"
+                                placeholder="Tìm kiếm"
+                                aria-label="Tìm kiếm"
+                                data-region="view-overview-search-input"
+                            >
+                        </div>
+                        <div class="ml-2">
+                            <a
+                                href="#"
+                                data-route="view-settings"
+                                data-route-param="63843"
+                            >
+                                <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/edit" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-right mt-3">
+                        <a href="#" data-route="view-contacts" role="button">
+                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/user" />
+                            Liên lạc
+                            <span class="badge bg-primary ml-2 hidden"
+                            data-region="contact-request-count"
+                            aria-label="There are 0 pending contact requests">
+                                0
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hidden border-bottom px-2 py-3 view-search"  aria-hidden="true" data-region="view-search">
+                    <div class="d-flex align-items-center">
+                        <a
+                            class="mr-2 align-self-stretch d-flex align-items-center"
+                            href="#"
+                            data-route-back
+                            data-action="cancel-search"
+                        >
+                            <span class="dir-rtl-hide"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed_rtl" /></span>
+                            <span class="dir-ltr-hide"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed" /></span>                        </a>
+                        <div class="input-append m-0 d-flex flex-grow">
+                            <input
+                                type="text"
+                                class="form-control border-right-0 searchinput"
+                                placeholder="Tìm kiếm"
+                                aria-label="Tìm kiếm"
+                                data-region="search-input"
+                            >
+                            <button
+                                class="btn m-0"
+                                type="button"
+                                data-action="search"
+                            >
+                                <span data-region="search-icon-container">
+                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/a/search" />
+                                </span>
+                                <span class="hidden" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>                
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-settings">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch" >
+                            <a class="h-100 d-flex mr-2 align-items-center" href="#" data-route-back role="button">
+                                <span class="dir-rtl-hide"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed_rtl" /></span>
+                                <span class="dir-ltr-hide"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed" /></span>                            </a>
+                        </div>
+                        <div>
+                            Cài đặt
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-container position-relative" data-region="body-container">
+                
+                <div
+                    class="hidden"
+                    data-region="view-contact"
+                    aria-hidden="true"
+                >
+                    <div class="p-2 pt-3" data-region="content-container"></div>
+                </div>                <div class="hidden h-100" aria-hidden="true" data-region="view-contacts" data-user-id="63843">
+                    <div class="d-flex flex-column h-100">
+                        <div class="p-3 border-bottom">
+                            <ul class="nav nav-pills d-flex m-0" role="tablist">
+                                <li class="nav-item w-50 align-self-stretch text-center active">
+                                    <a
+                                        id="contacts-tab-63790bd84235363790bd823cf728"
+                                        class="nav-link"
+                                        href="#contacts-tab-panel-63790bd84235363790bd823cf728"
+                                        data-toggle="tab"
+                                        data-action="show-contacts-section"
+                                        role="tab"
+                                        aria-controls="contacts-tab-panel-63790bd84235363790bd823cf728"
+                                        aria-selected="true"
+                                    >
+                                        Liên lạc
+                                    </a>
+                                </li>
+                                <li class="nav-item w-50 text-center">
+                                    <a
+                                        id="requests-tab-63790bd84235363790bd823cf728"
+                                        class="nav-link"
+                                        href="#requests-tab-panel-63790bd84235363790bd823cf728"
+                                        data-toggle="tab"
+                                        data-action="show-requests-section"
+                                        role="tab"
+                                        aria-controls="requests-tab-panel-63790bd84235363790bd823cf728"
+                                        aria-selected="false"
+                                    >
+                                        Các đề nghị
+                                        <span class="badge bg-primary ml-2 hidden" data-region="contact-request-count">
+                                            0
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content d-flex flex-column h-100">
+                                            <div
+                    class="tab-pane fade in active h-100"
+                    style="overflow-y: auto"
+                    aria-live="polite"
+                    data-region="lazy-load-list"
+                    data-user-id="63843"
+                                        id="contacts-tab-panel-63790bd84235363790bd823cf728"
+                    data-section="contacts"
+                    role="tabpanel"
+                    aria-labelledby="contacts-tab-63790bd84235363790bd823cf728"
+
+                >
+                    <div class="onepix" style="height: 1px;">&nbsp;</div>
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        No contacts
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                        <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                    </div>
+                </div>
+                
+                                            <div
+                    class="tab-pane fade h-100"
+                    style="overflow-y: auto"
+                    aria-live="polite"
+                    data-region="lazy-load-list"
+                    data-user-id="63843"
+                                        id="requests-tab-panel-63790bd84235363790bd823cf728"
+                    data-section="requests"
+                    role="tabpanel"
+                    aria-labelledby="requests-tab-63790bd84235363790bd823cf728"
+
+                >
+                    <div class="onepix" style="height: 1px;">&nbsp;</div>
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        No contact requests
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                        <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>                
+                <div
+                    class="view-conversation hidden h-100"
+                    aria-hidden="true"
+                    data-region="view-conversation"
+                    data-user-id="63843"
+                    data-midnight="1668877200"
+                    data-message-poll-min="10"
+                    data-message-poll-max="120"
+                    data-message-poll-after-max="300"
+                    style="overflow-y: auto; overflow-x: hidden"
+                >
+                    <div class="position-relative h-100" data-region="content-container" style="overflow-y: auto; overflow-x: hidden">
+                        <div class="content-message-container hidden h-100 px-2 pt-0" data-region="content-message-container" role="log" style="overflow-y: auto; overflow-x: hidden">
+                            <div class="py-3 sticky-top z-index-1 border-bottom text-center hidden" data-region="contact-request-sent-message-container">
+                                <p class="m-0">Contact request sent</p>
+                                <p class="font-italic font-weight-light" data-region="text"></p>
+                            </div>
+                            <div class="p-3 text-center hidden" data-region="self-conversation-message-container">
+                                <p class="m-0">Personal space</p>
+                                <p class="font-italic font-weight-light" data-region="text">Save draft messages, links, notes etc. to access later.</p>
+                           </div>
+                            <div class="hidden text-center p-3" data-region="more-messages-loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</div>
+                        </div>
+                        <div class="p-4 w-100 h-100 hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; background: rgba(0,0,0,0.3);">
+                            
+                            <div class="p-3 bg-white" data-region="confirm-dialogue" role="alert">
+                                <p class="text-muted" data-region="dialogue-text"></p>
+                                <div class="mb-2 custom-control custom-checkbox hidden" data-region="delete-messages-for-all-users-toggle-container">
+                                    <input type="checkbox" class="custom-control-input" id="delete-messages-for-all-users" data-region="delete-messages-for-all-users-toggle">
+                                    <label class="custom-control-label text-muted" for="delete-messages-for-all-users">
+                                        Delete for me and for everyone else
+                                    </label>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-block">
+                                    <span data-region="dialogue-button-text">Khối</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-unblock">
+                                    <span data-region="dialogue-button-text">Unblock</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-remove-contact">
+                                    <span data-region="dialogue-button-text">Xoá</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-add-contact">
+                                    <span data-region="dialogue-button-text">Thêm</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-selected-messages">
+                                    <span data-region="dialogue-button-text">Xoá</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-conversation">
+                                    <span data-region="dialogue-button-text">Xoá</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="request-add-contact">
+                                    <span data-region="dialogue-button-text">Send contact request</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="accept-contact-request">
+                                    <span data-region="dialogue-button-text">Chấp nhận và thêm liên hệ</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-block hidden" data-action="decline-contact-request">
+                                    <span data-region="dialogue-button-text">Decline</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block" data-action="okay-confirm">Đồng ý</button>
+                                <button type="button" class="btn btn-secondary btn-block" data-action="cancel-confirm">Huỷ bỏ</button>
+                            </div>
+                        </div>
+                        <div class="px-2 pb-2 pt-0" data-region="content-placeholder">
+                            <div class="h-100 d-flex flex-column">
+                                <div
+                                    class="px-2 pb-2 pt-0 bg-light h-100"
+                                    style="overflow-y: auto"
+                                >
+                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                </div>
+                            </div>                        </div>
+                    </div>
+                </div>
+                
+                <div
+                    class="hidden"
+                    aria-hidden="true"
+                    data-region="view-group-info"
+                >
+                    <div
+                        class="pt-3 h-100 d-flex flex-column"
+                        data-region="group-info-content-container"
+                        style="overflow-y: auto"
+                    ></div>
+                </div>                <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview"  data-user-id="63843">
+                    <div id="message-drawer-view-overview-container-63790bd84235363790bd823cf728" class="d-flex flex-column h-100" style="overflow-y: auto">
+                            
+                            <div
+                                class="accordion-group section border-0 "
+                                data-region="view-overview-favourites"
+                            >
+                                <div id="view-overview-favourites-toggle" class="accordion-heading" data-region="toggle">
+                                    <button
+                                        class="btn btn-link w-100 text-left p-2 m-0 d-flex align-items-center overview-section-toggle collapsed"
+                                        data-toggle="collapse"
+                                        data-parent="#message-drawer-view-overview-container-63790bd84235363790bd823cf728"
+                                        data-target="#view-overview-favourites-target"
+                                        aria-expanded="false"
+                                        aria-controls="view-overview-favourites-target"
+                                    >
+                                        <span class="collapsed-icon-container">
+                                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed" />
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/expanded" />
+                                        </span>
+                                        <strong>Nhìn chằm chằm</strong>
+                                        <small class="hidden ml-1" data-region="section-total-count-container">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div
+                                class=" accordion-body collapse border-bottom "
+                                style="overflow-y: auto"
+                                aria-live="polite"
+                                data-region="lazy-load-list"
+                                data-user-id="63843"
+                                            id="view-overview-favourites-target"
+            aria-labelledby="view-overview-favourites-toggle"
+            data-parent="#message-drawer-view-overview-container"
+
+                            >
+                                <div class="onepix" style="height: 1px;">&nbsp;</div>
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">No starred conversations</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                                    <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            <div
+                                class="accordion-group section border-0 "
+                                data-region="view-overview-group-messages"
+                            >
+                                <div id="view-overview-group-messages-toggle" class="accordion-heading" data-region="toggle">
+                                    <button
+                                        class="btn btn-link w-100 text-left p-2 m-0 d-flex align-items-center overview-section-toggle collapsed"
+                                        data-toggle="collapse"
+                                        data-parent="#message-drawer-view-overview-container-63790bd84235363790bd823cf728"
+                                        data-target="#view-overview-group-messages-target"
+                                        aria-expanded="false"
+                                        aria-controls="view-overview-group-messages-target"
+                                    >
+                                        <span class="collapsed-icon-container">
+                                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed" />
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/expanded" />
+                                        </span>
+                                        <strong>Group</strong>
+                                        <small class="hidden ml-1" data-region="section-total-count-container">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div
+                                class=" accordion-body collapse border-bottom "
+                                style="overflow-y: auto"
+                                aria-live="polite"
+                                data-region="lazy-load-list"
+                                data-user-id="63843"
+                                            id="view-overview-group-messages-target"
+            aria-labelledby="view-overview-group-messages-toggle"
+            data-parent="#message-drawer-view-overview-container"
+
+                            >
+                                <div class="onepix" style="height: 1px;">&nbsp;</div>
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">No group conversations</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                                    <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            <div
+                                class="accordion-group section border-0 "
+                                data-region="view-overview-messages"
+                            >
+                                <div id="view-overview-messages-toggle" class="accordion-heading" data-region="toggle">
+                                    <button
+                                        class="btn btn-link w-100 text-left p-2 m-0 d-flex align-items-center overview-section-toggle collapsed"
+                                        data-toggle="collapse"
+                                        data-parent="#message-drawer-view-overview-container-63790bd84235363790bd823cf728"
+                                        data-target="#view-overview-messages-target"
+                                        aria-expanded="false"
+                                        aria-controls="view-overview-messages-target"
+                                    >
+                                        <span class="collapsed-icon-container">
+                                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/collapsed" />
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/t/expanded" />
+                                        </span>
+                                        <strong>Private</strong>
+                                        <small class="hidden ml-1" data-region="section-total-count-container">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div
+                                class=" accordion-body collapse border-bottom "
+                                style="overflow-y: auto"
+                                aria-live="polite"
+                                data-region="lazy-load-list"
+                                data-user-id="63843"
+                                            id="view-overview-messages-target"
+            aria-labelledby="view-overview-messages-toggle"
+            data-parent="#message-drawer-view-overview-container"
+
+                            >
+                                <div class="onepix" style="height: 1px;">&nbsp;</div>
+                                            <div class="text-center p-2">
+                <p class="text-center text-muted mt-2">Your messages are temporarily unavailable due to upgrades in the messaging infrastructure. Please wait for them to be migrated.</p>
+            </div>
+
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">No private conversations</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                                    <span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                
+                <div
+                    data-region="view-search"
+                    aria-hidden="true"
+                    class="h-100 hidden"
+                    data-user-id="63843"
+                    data-users-offset="0"
+                    data-messages-offset="0"
+                    style="overflow-y: auto"
+                    
+                >
+                    <div class="hidden" data-region="search-results-container" style="overflow-y: auto">
+                        
+                        <div class="d-flex flex-column">
+                            <div class="mb-3 bg-white" data-region="all-contacts-container">
+                                <div data-region="contacts-container"  class="pt-2">
+                                    <h4 class="h6 px-2">Liên lạc</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div data-region="non-contacts-container" class="pt-2 border-top">
+                                    <h4 class="h6 px-2">Không liên lạc</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-users">
+                                        <span data-region="button-text">Load more</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="bg-white" data-region="messages-container">
+                                <h4 class="h6 px-2 pt-2">Tin nhắn</h4>
+                                <div class="list-group" data-region="list"></div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-messages">
+                                        <span data-region="button-text">Load more</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="hidden p-3 text-center" data-region="no-results-container">Không có kết quả nào</p>
+                        </div>                    </div>
+                    <div class="hidden" data-region="loading-placeholder">
+                        <div class="text-center pt-3 icon-size-4"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</div>
+                    </div>
+                    <div class="p-3 text-center" data-region="empty-message-container">
+                        <p>Tìm người và tin nhắn</p>
+                    </div>
+                </div>                
+                <div class="h-100 hidden bg-white" aria-hidden="true" data-region="view-settings">
+                    <div class="hidden" data-region="content-container">
+                        
+                        <div data-region="settings" class="p-3">
+                            <h3 class="h6 font-weight-bold">Privacy</h3>
+                            <p>You can restrict who can message you</p>
+                            <div data-preference="blocknoncontacts" class="mb-3">
+                                <fieldset>
+                                    <legend class="sr-only">Accept messages from:</legend>
+                                        <div class="custom-control custom-radio mb-2">
+                                            <input
+                                                type="radio"
+                                                name="message_blocknoncontacts"
+                                                class="custom-control-input"
+                                                id="block-noncontacts-63790bd84235363790bd823cf728-1"
+                                                value="1"
+                                            >
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-63790bd84235363790bd823cf728-1">
+                                                My contacts only
+                                            </label>
+                                        </div>
+                                        <div class="custom-control custom-radio mb-2">
+                                            <input
+                                                type="radio"
+                                                name="message_blocknoncontacts"
+                                                class="custom-control-input"
+                                                id="block-noncontacts-63790bd84235363790bd823cf728-0"
+                                                value="0"
+                                            >
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-63790bd84235363790bd823cf728-0">
+                                                My contacts and anyone in my courses
+                                            </label>
+                                        </div>
+                                </fieldset>
+                            </div>
+                        
+                            <div class="hidden" data-region="notification-preference-container">
+                                <h3 class="mb-2 mt-4 h6 font-weight-bold">Tùy chọn thông báo</h3>
+                            </div>
+                        
+                            <h3 class="mb-2 mt-4 h6 font-weight-bold">Thông tin chung</h3>
+                            <div data-preference="entertosend">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="enter-to-send-63790bd84235363790bd823cf728" >
+                                    <label class="custom-control-label" for="enter-to-send-63790bd84235363790bd823cf728">
+                                        Use enter to send
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-region="placeholder-container">
+                        
+                        <div class="d-flex flex-column p-3">
+                            <div class="w-25 bg-pulse-grey h6" style="height: 18px"></div>
+                            <div class="w-75 bg-pulse-grey mb-4" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-50 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-4">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-25 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                        </div>                    </div>
+                </div>            </div>
+            <div class="footer-container position-relative" data-region="footer-container">
+                
+                <div
+                    class="hidden border-top bg-white position-relative"
+                    aria-hidden="true"
+                    data-region="view-conversation"
+                    data-enter-to-send="0"
+                >
+                    <div class="hidden p-sm-2" data-region="content-messages-footer-container">
+                        
+                            <div
+                                class="emoji-auto-complete-container w-100 hidden"
+                                data-region="emoji-auto-complete-container"
+                                aria-live="polite"
+                                aria-hidden="true"
+                            >
+                            </div>
+                        <div class="d-flex mt-sm-1">
+                            <textarea
+                                dir="auto"
+                                data-region="send-message-txt"
+                                class="form-control bg-light"
+                                rows="3"
+                                data-auto-rows
+                                data-min-rows="3"
+                                data-max-rows="5"
+                                aria-label="Write a message..."
+                                placeholder="Write a message..."
+                                style="resize: none"
+                            ></textarea>
+                        
+                            <div class="position-relative d-flex flex-column">
+                                    <div
+                                        data-region="emoji-picker-container"
+                                        class="emoji-picker-container hidden"
+                                        aria-hidden="true"
+                                    >
+                                        
+                                        <div
+                                            data-region="emoji-picker"
+                                            class="card shadow emoji-picker"
+                                        >
+                                            <div class="card-header px-1 pt-1 pb-0 d-flex justify-content-between flex-shrink-0">
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button selected"
+                                                    data-action="show-category"
+                                                    data-category="Recent"
+                                                    title="Gần đây"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategoryrecent" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Smileys & People"
+                                                    title="Smileys & people"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategorysmileyspeople" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Animals & Nature"
+                                                    title="Các con vật và tự nhiên"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategoryanimalsnature" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Food & Drink"
+                                                    title="Thức ăn và Đồ uống"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategoryfooddrink" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Travel & Places"
+                                                    title="Đi lại và các địa điểm"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategorytravelplaces" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Activities"
+                                                    title="Các hoạt động"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategoryactivities" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Objects"
+                                                    title="Các đồ vật"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategoryobjects" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Symbols"
+                                                    title="Các biểu tượng"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategorysymbols" />
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Flags"
+                                                    title="Các lá cờ"
+                                                >
+                                                    <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/emojicategoryflags" />
+                                                </button>
+                                            </div>
+                                            <div class="card-body p-2 d-flex flex-column overflow-hidden">
+                                                <div class="input-group mb-1 flex-shrink-0">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text pr-0 bg-white text-muted">
+                                                            <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/search" />
+                                                        </span>
+                                                    </div>
+                                                    <input
+                                                        type="text"
+                                                        class="form-control border-left-0"
+                                                        placeholder="Tìm kiếm"
+                                                        aria-label="Tìm kiếm"
+                                                        data-region="search-input"
+                                                    >
+                                                </div>
+                                                <div class="flex-grow-1 overflow-auto emojis-container h-100" data-region="emojis-container">
+                                                    <div class="position-relative" data-region="row-container"></div>
+                                                </div>
+                                                <div class="flex-grow-1 overflow-auto search-results-container h-100 hidden" data-region="search-results-container">
+                                                    <div class="position-relative" data-region="row-container"></div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="card-footer d-flex flex-shrink-0"
+                                                data-region="footer"
+                                            >
+                                                <div class="emoji-preview" data-region="emoji-preview"></div>
+                                                <div data-region="emoji-short-name" class="emoji-short-name text-muted text-wrap ml-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button
+                                        class="btn btn-link btn-icon icon-size-3 ml-1"
+                                        aria-label="Chuyển đổi biểu tượng cảm xúc"
+                                        data-action="toggle-emoji-picker"
+                                    >
+                                        <img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/e/emoticons" />
+                                    </button>
+                                <button
+                                    class="btn btn-link btn-icon icon-size-3 ml-1 mt-auto"
+                                    aria-label="Gửi tin nhắn"
+                                    data-action="send-message"
+                                >
+                                    <span data-region="send-icon-container"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/sendmessage" /></span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden p-sm-2" data-region="content-messages-footer-edit-mode-container">
+                        
+                        <div class="d-flex p-3">
+                            <button
+                                class="btn btn-link btn-icon my-1 icon-size-4 ml-auto"
+                                data-action="delete-selected-messages"
+                                data-toggle="tooltip"
+                                data-placement="top"
+                                title="Xóa tin nhắn đã chọn"
+                            >
+                                <span data-region="icon-container"><img class="icon " alt="" aria-hidden="true" src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/trash" /></span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                                <span class="sr-only">Xóa tin nhắn đã chọn</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-contact-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p data-region="title"></p>
+                            <p class="text-muted" data-region="text"></p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-add-contact">
+                                <span data-region="dialogue-button-text">Send contact request</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-unblock-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">You have blocked this user.</p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-unblock">
+                                <span data-region="dialogue-button-text">Unblock user</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><img class="icon " alt="Đang tải..." title="Đang tải..." src="https://elearning.ctu.edu.vn/theme/image.php/lambda/core/1667958338/i/loading" /></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-unable-to-message">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">You are unable to message this user</p>
+                        </div>
+                    </div>
+                    <div class="p-sm-2" data-region="placeholder-container">
+                        <div class="d-flex">
+                            <div class="bg-pulse-grey w-100" style="height: 80px"></div>
+                            <div class="mx-2 mb-2 align-self-end bg-pulse-grey" style="height: 20px; width: 20px"></div>
+                        </div>                    </div>
+                    <div
+                        class="hidden position-absolute"
+                        data-region="confirm-dialogue-container"
+                        style="top: -1px; bottom: 0; right: 0; left: 0; background: rgba(0,0,0,0.3);"
+                    ></div>
+                </div>                    <div data-region="view-overview" class="text-center">
+                        <a href="https://elearning.ctu.edu.vn/message/index.php">
+                            See all
+                        </a>
+                    </div>
+            </div>
+        </div>
+
+</div>	<footer id="page-footer" class="container-fluid">
+			<div class="row-fluid">
+		<aside id="block-region-footer-left" class="span4 block-region" data-blockregion="footer-left" data-droptarget="1"></aside><aside id="block-region-footer-middle" class="span4 block-region" data-blockregion="footer-middle" data-droptarget="1"></aside><aside id="block-region-footer-right" class="span4 block-region" data-blockregion="footer-right" data-droptarget="1"></aside> 	</div>
+
+	<div class="footerlinks">
+    	<div class="row-fluid">
+    		<p class="helplink"></p>
+    				</div>
+        
+            		
+	<div class="socials row-fluid">
+    
+        	<div class="span6">
+        	<div class="social_contact">
+                        <nobr><i class="far fa-bookmark"></i> &nbsp;<a href='https://helpdesk.ctu.edu.vn' target="_blank" class="social_contact_web">https://helpdesk.ctu.edu.vn</a></nobr>
+                                    <nobr><i class="far fa-envelope"></i> &nbsp;<a href='mailto:helpdesk@ctu.edu.vn' class="social_contact_mail">helpdesk@ctu.edu.vn</a></nobr>
+                                    </div>
+        </div>
+        <div class="span6">
+                	<div class="social_icons pull-right">
+                <a class="social fab fa-facebook" href='https://www.facebook.com/ctudhct' target='_blank'> </a>                                                                <a class="social fab fa-instagram" href='https://instagram.com/ctudhct' target='_blank'> </a>                <a class="social fab fa-youtube" href='https://www.youtube.com/ctudhct' target='_blank'> </a>                <a class="social fab fa-linkedin" href='https://www.linkedin.com/school/ctudhct/' target='_blank'> </a>                            </div>
+        </div>
+        
+    </div>
+    	        
+   	</div><div class="logininfo">Bạn đang đăng nhập với tên <a href="https://elearning.ctu.edu.vn/user/profile.php?id=63843" title="Xem hồ sơ">Khoa Pham Minh</a> (<a href="https://elearning.ctu.edu.vn/login/logout.php?sesskey=xiQnwrUQ5V">Thoát</a>)</div>	</footer>
+</div>
+<script>(function($) {
+ 	$(document).ready(function(){
+
+	var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+	});
+	jQuery('.back-to-top').click(function(event) {
+    	event.preventDefault();
+    	jQuery('html, body').animate({scrollTop: 0}, duration);
+    	return false;
+	});
+	
+	$(document).on('click', 'button[data-toggle="dropdown"], .action-menu a[data-toggle="dropdown"], .lambda-custom-menu .nav-collapse.in a[data-toggle="dropdown"], .ml-auto.dropdown a[data-toggle="dropdown"]', function(event) {
+		event.preventDefault();
+  		$(this).next('.dropdown-menu').slideToggle("fast");
+	});
+	$(document).on('click', function (e) {
+    	if(!$('button[data-toggle="dropdown"]').is(e.target) && !$('button[data-toggle="dropdown"]').has(e.target).length && !$('a[data-toggle="dropdown"]').is(e.target) && !$('a[data-toggle="dropdown"]').has(e.target).length && !$(".atto_hasmenu").is(e.target)){
+        	$('.dropdown .dropdown-menu:not(.lambda-login)').slideUp("fast");
+    	}                       
+	});
+	$(document).on('click', '.modchooser button[data-action="show-option-summary"], .modchooser button.closeoptionsummary', function(event) {
+		$('.carousel-item[data-region="modules"]').toggleClass("active");
+		$('.carousel-item[data-region="help"]').toggleClass("active");
+	});
+
+	});
+}) (jQuery);
+
+
+var togglesidebar = function() {
+  var sidebar_open = Y.one('body').hasClass('sidebar-open');
+  if (sidebar_open) {
+    Y.one('body').removeClass('sidebar-open');
+    M.util.set_user_preference('theme_lambda_sidebar', 'sidebar-closed');
+  } else {
+    Y.one('body').addClass('sidebar-open');
+    M.util.set_user_preference('theme_lambda_sidebar', 'sidebar-open');
+  }
+};
+
+M.theme_lambda = M.theme_lambda || {};
+M.theme_lambda.sidebar =  {
+  init: function() {
+    Y.one('body').delegate('click', togglesidebar, '#sidebar-btn');
+  }
+};</script><script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://elearning.ctu.edu.vn/lib/requirejs.php/1655782918/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://elearning.ctu.edu.vn/lib/javascript.php/1655782918/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://elearning.ctu.edu.vn/lib/javascript.php/1655782918/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://elearning.ctu.edu.vn/lib/javascript.php/1655782918/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://elearning.ctu.edu.vn/lib/javascript.php/1655782918/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('vi');
+});;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select63790bd823cf71', [CustomEvents.events.accessibleChange]);
+    $('#single_select63790bd823cf71').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#switchcategory').submit();
+        }
+    });
+});
+;
+M.util.js_pending('block_navigation/navblock'); require(['block_navigation/navblock'], function(amd) {amd.init("41"); M.util.js_complete('block_navigation/navblock');});;
+M.util.js_pending('block_settings/settingsblock'); require(['block_settings/settingsblock'], function(amd) {amd.init("42", null); M.util.js_complete('block_settings/settingsblock');});;
+M.util.js_pending('report_allylti/main'); require(['report_allylti/main'], function(amd) {amd.init(); M.util.js_complete('report_allylti/main');});;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-63790bd83d9e463790bd823cf717');
+    Popover.init(toggle);
+});
+;
+
+require(['jquery', 'core/popover_region_controller'], function($, controller) {
+    var container = $('#nav-mail-popover-container');
+    var controller = new controller(container);
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select63790bd823cf727', [CustomEvents.events.accessibleChange]);
+    $('#single_select63790bd823cf727').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f63790bd823cf726').submit();
+        }
+    });
+});
+;
+
+require(
+[
+    'jquery',
+    'core_message/message_drawer',
+    'core_message/message_popover'
+],
+function(
+    $,
+    MessageDrawer,
+    Popover
+) {
+
+    var root = $('#message-drawer-63790bd84235363790bd823cf728');
+    MessageDrawer.init(root);
+
+    var toggle = $('#message-drawer-close-63790bd84235363790bd823cf728');
+    Popover.init(toggle);
+});
+;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="https://elearning.ctu.edu.vn/theme/javascript.php/lambda/1667958338/footer"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"S\u1eeda l\u1ea7n cu\u1ed1i","name":"T\u00ean","error":"L\u1ed7i","info":"Th\u00f4ng tin","yes":"C\u00f3","no":"Kh\u00f4ng","viewallcourses":"Xem t\u1ea5t c\u1ea3 kho\u00e1 h\u1ecdc","cancel":"Hu\u1ef7 b\u1ecf","morehelp":"Tr\u1ee3 gi\u00fap th\u00eam","loadinghelp":"\u0110ang t\u1ea3i...","confirm":"X\u00e1c nh\u1eadn","areyousure":"B\u1ea1n c\u00f3 ch\u1eafc kh\u00f4ng?","closebuttontitle":"\u0110\u00f3ng","unknownerror":"L\u1ed7i kh\u00f4ng r\u00f5","file":"T\u1eadp tin","url":"URL"},"repository":{"type":"Lo\u1ea1i","size":"K\u00edch th\u01b0\u1edbc","invalidjson":"Chu\u1ed7i JSON kh\u00f4ng h\u1ee3p l\u1ec7","nofilesattached":"Kh\u00f4ng c\u00f3 t\u1ec7p \u0111\u00ednh k\u00e8m","filepicker":"B\u1ed9 ch\u1ecdn t\u1ec7p","logout":"Tho\u00e1t","nofilesavailable":"Kh\u00f4ng c\u00f3 t\u1ec7p","norepositoriesavailable":"Xin l\u1ed7i, kh\u00f4ng c\u00f3 kho n\u00e0o hi\u1ec7n t\u1ea1i c\u1ee7a b\u1ea1n c\u00f3 th\u1ec3 tr\u1ea3 v\u1ec1 c\u00e1c t\u1ec7p theo \u0111\u1ecbnh d\u1ea1ng y\u00eau c\u1ea7u.","fileexistsdialogheader":"T\u1ec7p t\u1ed3n t\u1ea1i","fileexistsdialog_editor":"M\u1ed9t t\u1ec7p c\u00f3 t\u00ean \u0111\u00f3 \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111\u00ednh k\u00e8m trong v\u0103n b\u1ea3n b\u1ea1n \u0111ang s\u1eeda.","fileexistsdialog_filemanager":"M\u1ed9t t\u1ec7p c\u00f3 t\u00ean \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111\u00ednh k\u00e8m","renameto":"\u0110\u1eb7t t\u00ean th\u00e0nh \"{$a}\"","referencesexist":"C\u00f3 {$a} t\u1ec7p b\u00ed danh\/l\u1ed1i t\u1eaft s\u1eed d\u1ee5ng t\u1ec7p n\u00e0y l\u00e0m ngu\u1ed3n","select":"Ch\u1ecdn"},"admin":{"confirmdeletecomments":"B\u1ea1n \u0111\u1ecbnh x\u00f3a c\u00e1c b\u00ecnh lu\u1eadn, b\u1ea1n c\u00f3 ch\u1eafc kh\u00f4ng?","confirmation":"X\u00e1c nh\u1eadn"},"debug":{"debuginfo":"Th\u00f4ng tin g\u1ee1 l\u1ed7i","line":"D\u00f2ng","stacktrace":"Stack trace"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\",\r\n    TeX: { extensions: [\"AMSmath.js\",\"AMSsymbols.js\",\"mhchem.js\",\"noErrors.js\",\"noUndefined.js\"] }\r\n});\r\n","lang":"vi"});
+});
+Y.use("moodle-course-categoryexpander",function() {Y.Moodle.course.categoryexpander.init();
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+ M.util.js_pending('random63790bd823cf729'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random63790bd823cf729'); });
+})();
+//]]>
+</script>
+
+</body>
+</html>

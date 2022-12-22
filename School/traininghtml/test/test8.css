@@ -1,0 +1,15 @@
+table {
+    width:100%;
+    border-collapse:collapse;
+
+}
+th {
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: aqua;
+}
+td:first-child {
+    text-decoration:underline;
+    color:blue;
+}

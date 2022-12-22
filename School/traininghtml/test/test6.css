@@ -1,0 +1,12 @@
+#content {
+    column-count:2;
+    column-gap: 40px;
+    column-rule: 4px solid plum;
+}
+span {
+    float:left;
+    font-size:400%;
+}
+#shadow {
+    text-shadow: 0 3px rgba(0,0,0,0.3);
+}

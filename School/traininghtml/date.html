@@ -1,0 +1,79 @@
+<HL>
+
+<HEAD>
+    <TITLE>Su dung doi tuong Date</TITLE>
+    <SCRIPT language="JavaScript">
+    function hientai(){
+        d = new Date();
+        demo.ngay.value = d.getDate();
+        demo.thang.value = d.getMonth()+1;
+        demo.nam.value = d.getFullYear();
+    }
+    function tinhtoan(){
+        ngay = parseInt(demo.ngay.value);
+        thang = parseInt(demo.thang.value)-1;
+        nam = parseInt(demo.nam.value);
+
+        d1 = new Date(nam, thang, ngay);
+        d2 = new Date();
+	if (d1.getDay()==0)
+            demo.kq1.value = "Chủ nhật";
+	else
+            demo.kq1.value = "Thứ " + (d1.getDay()+1);
+
+        demo.kq2.value = parseInt(Math.abs(d1-d2)/(24*60*60*1000)) + " ngày";
+        demo.kq3.value = parseInt(Math.abs(d1-d2)/(60*60*1000)) + " giờ";
+        demo.kq4.value = parseInt(Math.abs(d1-d2)/(60*1000)) + " phút";
+    }
+    </SCRIPT>
+</HEAD>
+
+<BODY>
+    <FORM action="" method="POST" name="demo">
+        Nhập ngày tháng năm: 
+        <Input type="text" name="ngay" value="" style="width:30" /> /
+        <Input type="text" name="thang" value="" style="width:30" /> /
+        <Input type="text" name="nam" value="" style="width:50" /><br>
+        <HR align="left" color="#000099" size="1" width="400">
+        <INPUT type="button" name="btn1" value="Tính toán" style="width:150" onClick="tinhtoan();" />
+        <INPUT type="button" name="btn1" value="Ngày hiện tại" style="width:150" onClick="hientai();" />
+        <TABLE cellspacing="0" cellpađing="0">
+            <TR>
+                <TD>Kết quả ngày trong tuần</TD>
+                <TD>&nbsp;:&nbsp;</TD>
+                <TD><input type="text" name="kq1" value="0" style="width:100" readonly /></TD>
+                <TD nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD>Khoảng cách so với ngày hiện tại</TD>
+                <TD>&nbsp;:&nbsp;</TD>
+                <TD><input type="text" name="kq2" value="0" style="width:200" readonly /> (1)</TD>
+                <TD nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD>Khoảng cách so với ngày hiện tại</TD>
+                <TD>&nbsp;:&nbsp;</TD>
+                <TD><input type="text" name="kq3" value="0" style="width:200" readonly /> (2)</TD>
+                <TD nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD>Khoảng cách so với ngày hiện tại</TD>
+                <TD>&nbsp;:&nbsp;</TD>
+                <TD><input type="text" name="kq4" value="0" style="width:200" readonly /> (3)</TD>
+                <TD nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+            </TR>
+        </TABLE>
+    </FORM>
+    <BR><HR align="left" color="#000099" size="1" width="70%">
+    <BR>Viết đoạn mã JavaScript thực hiện các yêu cầu sau:
+    <BR>- Tạo 2 số ngẫu nhiên (>0 và <=100).
+    <BR>- Khi bấm chuột vào nút <b>"Tính toán"</b>, hiển thị thông báo lỗi nếu ngày tháng năm không hợp lệ.
+    <BR>- Khi bấm chuột vào nút <b>"Tính toán"</b>, nếu ngày tháng năm hợp lệ hiển thị các thông tin sau:
+    <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ Thứ (ngày trong tuần):
+    <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ Khoảng cách đến ngay hiện tại (1): theo đơn vị ngày.
+    <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ Khoảng cách đến ngay hiện tại (2): theo đơn vị giờ.
+    <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ Khoảng cách đến ngay hiện tại (2): theo đơn vị phút.
+    <BR>- Khi bấm chuột vào nút <b>"Ngay hiện tại"</b>, hiển thị các giá trị ngày tháng năm vào các ô tương ứng
+</BODY>
+
+</HTML>

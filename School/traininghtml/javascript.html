@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        document.write("<b>hello!</b>");
+        for(i = 0;i <= 9;i++)(
+          document.write('<input type="button" value="'+ i +'" onclick="choose( this.value);" >')
+        )
+          function choose(number) {
+            
+            // alert("you choose one" + number + ".");
+            document.getElementById('khoa').value =  document.getElementById('khoa').value + number ;
+          }
+        
+
+
+    </script>
+    <form >
+    <input type="text"  name="khoa" id="khoa" value="" onclick="choose( this.value);">
+</form>
+    
+</body>
+</html>
